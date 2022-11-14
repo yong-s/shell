@@ -1,5 +1,5 @@
 a=arm64
-gitpro = 'https://ghproxy.com/'
+gitpro='https://ghproxy.com/'
 if [[ $(uname -a | grep "x86_64") != "" ]]; then 
     a=amd64
 fi ;
